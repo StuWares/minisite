@@ -17,3 +17,7 @@ a:hover {
 #intro-box {
     color: navy;
 }
+
+#weather-box {
+    background-color: grey;
+}
