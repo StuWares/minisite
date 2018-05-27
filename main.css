@@ -1,0 +1,19 @@
+body {
+    background: black;
+}
+
+#inner-box {
+    background-color: grey;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: darkmagenta;
+}
+
+#intro-box {
+    color: navy;
+}
