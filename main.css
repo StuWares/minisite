@@ -15,9 +15,13 @@ a:hover {
 }
 
 #intro-box {
-    color: navy;
+    color: darkmagenta;
 }
 
 #weather-box {
     background-color: grey;
+}
+
+h1 {
+    color: darkmagenta;
 }
