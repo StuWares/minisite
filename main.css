@@ -1,9 +1,9 @@
 body {
-    background: black;
+    background: #332E3C;
 }
 
 #inner-box {
-    background-color: grey;
+    background-color: #A29587;
 }
 
 a {
@@ -11,17 +11,18 @@ a {
 }
 
 a:hover {
-    color: darkmagenta;
+    color: #333322;
 }
 
 #intro-box {
-    color: darkmagenta;
+    color: #C4B2BC;
 }
 
 #weather-box {
-    background-color: grey;
+    background-color: #A29587;
+    border-radius: 15px;
 }
 
 h1 {
-    color: darkmagenta;
+    color: #C4B2BC;
 }
