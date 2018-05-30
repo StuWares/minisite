@@ -27,7 +27,7 @@ a:hover {
 h1 {
     color: rgb(212, 211, 212);
 }
-
+/* Animated toggle switch */
 .switch {
     position: relative;
     display: inline-block;

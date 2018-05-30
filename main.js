@@ -5,6 +5,7 @@ $(document).ready(function(){
     projectsArrowToggle = "right"
     themeToggle = "dark"
 
+    // Toggle content and toggle arrow direction
     $("#contact-title").on("click", function(){
         $("#inner-box").toggle()
         if (contactArrowToggle === "right"){
@@ -29,6 +30,7 @@ $(document).ready(function(){
         
     });
 
+    // Change theme
     $("#theme-switch").on("click", function(){
         if (themeToggle == "dark"){
             $("body").css("background", "white");
