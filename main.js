@@ -3,6 +3,7 @@ $(document).ready(function(){
     $("#weather-box").hide();
     contactArrowToggle = "right"
     projectsArrowToggle = "right"
+    themeToggle = "dark"
 
     $("#contact-title").on("click", function(){
         $("#inner-box").toggle()
@@ -28,4 +29,18 @@ $(document).ready(function(){
         
     });
 
+    $("#theme-switch").on("click", function(){
+        if (themeToggle == "dark"){
+            $("body").css("background", "white");
+            $("h1").css("color", "black");
+            $("#inner-box, #weather-box").css("background-color", "#2196F3");
+            themeToggle = "light"
+        }
+        else {
+            $("body").css("background", "#332E3C");
+            $("h1").css("color", "rgb(212, 211, 212)");
+            $("#inner-box, #weather-box").css("background-color", "#A29587");
+            themeToggle = "dark"
+        }
+    });
 });
