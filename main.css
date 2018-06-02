@@ -1,5 +1,16 @@
+
 body {
     background: #332E3C;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.responsive-box {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
 }
 
 #inner-box {
@@ -22,10 +33,14 @@ a:hover {
 #weather-box {
     background-color: #A29587;
     border-radius: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 h1 {
     color: rgb(212, 211, 212);
+    font-size: 38px;
+    font-weight: bold;
 }
 /* Animated toggle switch */
 .switch {
