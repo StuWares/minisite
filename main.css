@@ -42,6 +42,21 @@ h1 {
     font-size: 38px;
     font-weight: bold;
 }
+
+/* Rotate arrows when hovered */
+#contact-arrow:hover, #projects-arrow:hover {
+    /* transform: rotate(90deg); */
+     animation-name: rotate-arrow;
+     animation-duration: 500ms;
+     animation-fill-mode: forwards;
+   }
+   
+   @keyframes rotate-arrow {
+     100% {
+       transform: rotate(90deg);
+     }
+   }
+
 /* Animated toggle switch */
 .switch {
     position: relative;
